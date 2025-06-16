@@ -45,6 +45,9 @@ The tool uses a combination of **machine learning**, **TF-IDF scoring**, and **s
 <!-- Embed or link your demo video here if available -->
 *Coming soon: Watch how the AI Screener works in real time!*
 
+https://github.com/user-attachments/assets/ae119cbc-20ee-4ac3-ad3b-545287d93036
+
+
 ---
 
 ## 💻 Built With
