@@ -77,3 +77,34 @@ This tool uses natural language processing and machine learning to evaluate how 
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 python app.py
+
+
+
+
+## 🚩 Future Improvements
+
+✨ Improve NLP model accuracy with fine-tuning  
+✨ Add support for multiple languages  
+✨ Introduce AI-generated suggestions for improving resume content  
+✨ Include keyword-based analysis to highlight missing skills  
+✨ Allow saving multiple results for better comparison  
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here's how to contribute:
+
+```bash
+# Fork the repository
+# Clone your fork and create a new branch
+git checkout -b feature/your-feature
+
+# Make your changes and commit
+git commit -m "Add your feature"
+
+# Push to your forked repo
+git push origin feature/your-feature
+
+# Create a Pull Request 🎉
+
