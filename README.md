@@ -108,3 +108,12 @@ git commit -m "✨ Add [feature name]"
 git push origin your-feature-branch
 
 # 5. Open a Pull Request — we’ll review it ASAP 🎉
+***Developed by Prapti Mishra***
+
+
+
+---
+
+Let me know if you'd like this saved as a `.md` file or need help adding a project logo, banner, or shields (stars, forks, license, etc.).
+
+
