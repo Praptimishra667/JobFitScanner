@@ -114,6 +114,6 @@ git push origin your-feature-branch
 
 ---
 
-Let me know if you'd like this saved as a `.md` file or need help adding a project logo, banner, or shields (stars, forks, license, etc.).
+
 
 
