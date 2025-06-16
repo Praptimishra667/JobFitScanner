@@ -1,0 +1,6 @@
+gradio
+scikit-learn
+spacy
+PyMuPDF
+fpdf
+python-docx
