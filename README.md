@@ -85,9 +85,8 @@ This tool uses natural language processing and machine learning to evaluate how 
 
 ## 🤝 Contributing
 
-Contributions are welcome! Here's how to contribute:
-``bash
 # Fork the repository
+
 # Clone your fork and create a new branch
 git checkout -b feature/your-feature
 
@@ -98,3 +97,19 @@ git commit -m "Add your feature"
 git push origin feature/your-feature
 
 # Create a Pull Request 🎉
+ Prapti Mishra
+
+
+ # Fork the repository
+
+# Clone your fork and create a new branch
+git checkout -b feature/your-feature
+
+# Make your changes and commit
+git commit -m "Add your feature"
+
+# Push to your forked repo
+git push origin feature/your-feature
+
+# Create a Pull Request 🎉
+
