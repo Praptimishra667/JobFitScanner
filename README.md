@@ -71,14 +71,6 @@ This tool uses natural language processing and machine learning to evaluate how 
 
 ---
 
-## 🚀 Run Locally
-
-```bash
-pip install -r requirements.txt
-python -m spacy download en_core_web_sm
-python app.py
-
-
 
 
 ## 🚩 Future Improvements
@@ -94,8 +86,7 @@ python app.py
 ## 🤝 Contributing
 
 Contributions are welcome! Here's how to contribute:
-
-```bash
+``bash
 # Fork the repository
 # Clone your fork and create a new branch
 git checkout -b feature/your-feature
@@ -107,4 +98,3 @@ git commit -m "Add your feature"
 git push origin feature/your-feature
 
 # Create a Pull Request 🎉
-
