@@ -31,47 +31,46 @@ This tool uses natural language processing and machine learning to evaluate how 
 3. **Enter Your Email and CGPA** – This helps personalize the feedback and simulate sending results  
 4. **Click “🔍 Match Resume”** – The AI analyzes your resume and computes a similarity score  
 5. **Get Feedback & Results** – You'll receive:
-   - 📈 Similarity Score
-   - 📋 Final Decision (Shortlisted / Not Shortlisted)
-   - 🎓 Entered CGPA
-   - 📨 Email Status (simulated)
-   - 📝 Extracted Resume Text
-   - 📌 Extracted JD Text
+   - 📈 Similarity Score  
+   - 📋 Final Decision (Shortlisted / Not Shortlisted)  
+   - 🎓 Entered CGPA  
+   - 📨 Email Status (simulated)  
+   - 📝 Extracted Resume Text  
+   - 📌 Extracted JD Text  
 
 ---
 
 ## 💻 Technologies Used
 
 - Python 3.10+  
-- Gradio (or Streamlit for UI)  
+- Gradio or Streamlit (UI)  
 - spaCy (`en_core_web_sm`)  
-- scikit-learn (TF-IDF and cosine similarity)  
-- PyMuPDF (PDF text extraction)  
-- FPDF (PDF generation for reports)  
-- Python-docx (optional `.docx` generation)  
+- scikit-learn (TF-IDF + cosine similarity)  
+- PyMuPDF (`fitz`) for PDF parsing  
+- FPDF (PDF result generation)  
+- `smtplib` for Gmail-based email simulation  
+- `email.mime` modules for formatting  
 
 ---
 
 ## 📂 File Upload Support
 
-- `.pdf` and `.txt` supported for both Resume and Job Description.
+- `.pdf` and `.txt` files are supported for both Resume and Job Description.
 
 ---
 
 ## 📬 Output Sections
 
 | Section                 | Description                                               |
-|-------------------------|-----------------------------------------------------------|
+|------------------------|-----------------------------------------------------------|
 | 📈 Similarity Score     | Float (0 to 1) indicating textual alignment               |
-| 📋 Final Decision       | Whether the candidate is shortlisted                      |
-| 🎓 Entered CGPA         | Shown in the output for transparency                      |
-| 📨 Email Status         | Confirmation if simulated email was "sent"               |
-| 📝 Extracted Resume     | Raw text pulled from resume file                          |
-| 📌 Extracted JD         | Raw text pulled from job description                      |
+| 📋 Final Decision       | Whether the candidate is shortlisted                     |
+| 🎓 Entered CGPA         | Shown for transparency in final decision                 |
+| 📨 Email Status         | Indicates if simulated email was "sent"                  |
+| 📝 Extracted Resume     | Raw text pulled from resume file                         |
+| 📌 Extracted JD         | Raw text pulled from job description                     |
 
 ---
-
-
 
 ## 🚩 Future Improvements
 
@@ -85,31 +84,18 @@ This tool uses natural language processing and machine learning to evaluate how 
 
 ## 🤝 Contributing
 
-# Fork the repository
+We welcome your contributions! Follow these steps to get started:
 
-# Clone your fork and create a new branch
+```bash
+# 1. Fork the repository
+
+# 2. Clone your fork and create a new branch
 git checkout -b feature/your-feature
 
-# Make your changes and commit
+# 3. Make your changes and commit
 git commit -m "Add your feature"
 
-# Push to your forked repo
+# 4. Push to your forked repo
 git push origin feature/your-feature
 
-# Create a Pull Request 🎉
- Prapti Mishra
-
-
- # Fork the repository
-
-# Clone your fork and create a new branch
-git checkout -b feature/your-feature
-
-# Make your changes and commit
-git commit -m "Add your feature"
-
-# Push to your forked repo
-git push origin feature/your-feature
-
-# Create a Pull Request 🎉
-
+# 5. Create a Pull Request 🎉
